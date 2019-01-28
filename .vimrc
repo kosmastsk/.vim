@@ -81,6 +81,3 @@ noremap <Leader>Y "+y
 noremap <Leader>P "+p
 set clipboard=unnamedplus
 
-" Add clang-format tool
-map <C-K> :pyf <path-to-this-file>/clang-format.py<cr>
-imap <C-K> <c-o>:pyf <path-to-this-file>/clang-format.py<cr>
